@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react';
 // Enables the React plugin so that JSX and Fast Refresh work out of the box.
 export default defineConfig({
   plugins: [react()],
+  base: './',	
 });
